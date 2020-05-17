@@ -1,0 +1,17 @@
+.panel-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: indianred;
+
+    map {
+        flex: 2;
+    }
+
+    .panel-wrapper {
+        flex: 1;
+    }
+
+}
