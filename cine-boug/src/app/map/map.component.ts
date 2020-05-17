@@ -28,11 +28,9 @@ export class MapComponent implements AfterViewInit {
       ],
       view: new View({
         center: Proj.fromLonLat([2.3488, 48.8534]),
-        zoom: 2
+        zoom: 11
       }),
       controls: defaultControls().extend([])
     });
-
-    this.map.setTarget('map');
   }
 }
